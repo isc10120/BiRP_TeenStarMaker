@@ -1,0 +1,12 @@
+name: Repository Locked
+
+on: [push, pull_request]
+
+jobs:
+  locked-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail Build
+        run: |
+          echo "::error::This repository is locked/archived. No new commits are allowed."
+          exit 1
