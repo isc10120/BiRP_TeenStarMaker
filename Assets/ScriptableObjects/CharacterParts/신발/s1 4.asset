@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edafd89be771a441ae415e488c2eca2, type: 3}
+  m_Name: s1 4
+  m_EditorClassIdentifier: 
+  id: s5
+  partsType: 5
+  sprite_Small: {fileID: 21300000, guid: 811bf2af2512e8d4bb78e5bb6dbd9814, type: 3}
+  sprite_Medium: {fileID: 21300000, guid: 56782ca57c354df4cb91efd653f44202, type: 3}
+  sprite_Large: {fileID: 21300000, guid: 87ebea2680a26df428f6d9a1b61cb1ab, type: 3}
+  cost: 350
