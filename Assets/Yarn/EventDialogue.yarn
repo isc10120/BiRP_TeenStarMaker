@@ -1,0 +1,296 @@
+﻿title: 어쩌구3
+---
+<<declare $randomNum = 1>>
+This is an example of a Yarn Spinner script. Write your dialogue here!
+===
+
+title: 작사_작곡_연습
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    밤늦도록 멜로디와 단어 사이에서, 자신의 이야기를 노트에 옮겼어.
+<<else>>
+    완벽하진 않아도, 한 곡의 씨앗이 조용히 자라나기 시작했어.
+<<endif>>
+
+<<add_singersongwriter 7>>
+<<add_popularity 0>>
+<<add_money 450>>
+===
+
+title: 라디오_시연_투고
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    늦은 밤 라디오를 떠올리며, 조심스럽게 마음을 적어 내려갔어.
+<<else>>
+    누군가 들어줄지도 모른다는 생각에, 사연을 봉투에 담았어.
+<<endif>>
+
+<<add_singersongwriter 6>>
+<<add_popularity 1>>
+<<add_money 400>>
+===
+
+title: 미발매_곡_데모_녹음
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    서툰 연주 위에 목소리를 얹어, 처음으로 노래를 남겼어.
+<<else>>
+    완성되진 않았지만, 지금의 자신을 그대로 담아냈어.
+<<endif>>
+
+<<add_singersongwriter 6>>
+<<add_popularity 1>>
+<<add_money 450>>
+===
+
+title: 인디_레이블_미팅
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    작은 사무실에서, 자신의 음악에 대해 차분히 이야기를 나눴어.
+<<else>>
+    큰 약속은 없었지만, 음악을 진지하게 들어주는 눈빛을 느꼈어.
+<<endif>>
+
+<<add_singersongwriter 7>>
+<<add_popularity 5>>
+<<add_money 500>>
+===
+
+title: 악기_상가_방문
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    낡은 기타들을 하나씩 만지며, 손에 맞는 소리를 찾아봤어.
+<<else>>
+    주머니 사정은 가벼웠지만, 마음만큼은 오래 머물렀어.
+<<endif>>
+
+<<add_singersongwriter 5>>
+<<add_popularity 2>>
+<<add_money 400>>
+===
+
+title: 시집_읽기
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    짧은 문장 속에서, 노래가 될 말들을 조용히 건져 올렸어.
+<<else>>
+    시 한 편을 덮고 나니, 멜로디보다 단어가 먼저 떠올랐어. 
+<<endif>>
+
+<<add_singersongwriter 7>>
+<<add_popularity 0>>
+<<add_money 400>>
+===
+
+title: 중고_LP_레코드_숍_탐방
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    먼지 쌓인 레코드 사이에서, 오래된 목소리들을 만났어.
+<<else>>
+    바늘이 지나간 흔적처럼, 음악에도 시간이 남는다는 걸 느꼈어.
+<<endif>>
+
+<<add_singersongwriter 5>>
+<<add_popularity 2>>
+<<add_money 400>>
+===
+
+title: 가사_받아쓰기
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    좋아하던 노래를 따라 쓰며, 단어의 리듬을 다시 느껴봤어.
+<<else>>
+    한 줄 한 줄 적다 보니, 왜 이 가사가 남았는지 알 것 같아.
+<<endif>>
+
+<<add_singersongwriter 7>>
+<<add_popularity 0>>
+<<add_money 400>>
+===
+
+title: 대학로_소극장_오픈마이크
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    작은 무대에 올라, 자신의 노래를 처음으로 들려줬어.
+<<else>>
+    큰 반응은 없었지만, 노래는 분명 무대 위에 남았어.
+<<endif>>
+
+<<add_singersongwriter 5>>
+<<add_popularity 7>>
+<<add_money 500>>
+===
+
+title: 모델_활동
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    카메라 앞에 서 보니, 표정 하나에도 의미가 생긴다는 걸 알았어.
+<<else>>
+    움직이지 않아도, 시선만으로 이야기를 전해야 했어.
+<<endif>>
+
+<<add_kpop 5>>
+<<add_popularity 7>>
+<<add_visual 20>>
+<<add_money 500>>
+===
+
+title: 댄스_활동
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    거울 앞에서 같은 동작을 수없이 반복했어.
+<<else>>
+    몸이 음악을 기억하기 시작하자, 생각이 조금 가벼워졌어.
+<<endif>>
+
+<<add_kpop 7>>
+<<add_popularity 5>>
+<<add_visual 20>>
+<<add_money 500>>
+===
+
+title: 카메라_테스트
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    렌즈를 마주하는 게 생각보다 쉽지 않았어.
+<<else>>
+    시선을 고정하는 연습만으로도 시간이 훌쩍 지나갔어.
+<<endif>>
+
+<<add_kpop 6>>
+<<add_popularity 4>>
+<<add_visual 10>>
+<<add_money 450>>
+===
+
+title: 유명_디자이너_패션쇼_관람
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    무대 위의 움직임 하나하나가 강한 인상을 남겼어.
+<<else>>
+    옷과 조명이 사람을 완전히 바꿔 놓는 순간을 봤어.
+<<endif>>
+
+<<add_kpop 6>>
+<<add_popularity 4>>
+<<add_visual 10>>
+<<add_money 450>>
+===
+
+title: 방송_보조_출연
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    말수는 적었지만, 분위기를 읽는 데 집중했어.
+<<else>>
+    카메라가 없는 곳에서도 방송은 이어지고 있었어.
+<<endif>>
+
+<<add_kpop 5>>
+<<add_popularity 7>>
+<<add_visual 20>>
+<<add_money 500>>
+===
+
+title: 하이틴_잡지_주니어_인터뷰
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    짧은 질문에도 쉽게 대답할 수가 없었어.
+<<else>>
+    이름과 얼굴이 글자로 남는 경험은 낯설었어.
+<<endif>>
+
+<<add_kpop 4>>
+<<add_popularity 6>>
+<<add_visual 10>>
+<<add_money 450>>
+===
+
+title: 전국노래자랑_참가
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    짧은 질문에도 쉽게 대답할 수가 없었어.
+<<else>>
+    이름과 얼굴이 글자로 남는 경험은 낯설었어.
+<<endif>>
+
+<<add_trot 5>>
+<<add_popularity 5>>
+<<add_visual 20>>
+<<add_money 500>>
+===
+
+title: 정통_민요_배우기
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    호흡 하나에도 뜻이 담겨 있다는 걸 배웠어. 
+<<else>>
+    천천히 따라 부르다 보니, 노래가 몸 안에서 자리 잡기 시작했어.
+<<endif>>
+
+<<add_trot 6>>
+<<add_popularity 2>>
+<<add_visual 1>>
+<<add_money 450>>
+===
+
+title: 효도_잔치_공연
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    노래 한 곡에 웃음이 번졌어.
+<<else>>
+    마이크보다 눈맞춤이 더 중요했던 무대였어.
+<<endif>>
+
+<<add_trot 5>>
+<<add_popularity 4>>
+<<add_visual 20>>
+<<add_money 500>>
+===
+
+title: 콧노래_꺾기_연습
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    작은 차이가 노래를 바꾼다는 걸 알았어.
+<<else>>
+    처음엔 어색했지만, 어느 순간 소리가 자연스럽게.
+<<endif>>
+
+<<add_trot 6>>
+<<add_popularity 2>>
+<<add_visual 10>>
+<<add_money 450>>
+===
+
+title: 시장_상인회_인사_돌기
+---
+<<set $randomNum = dice(2)>>
+<<if $randomNum == 1>>
+    가게마다 인사를 건네며 얼굴을 익혔어.
+<<else>>
+    짧은 대화 속에서도, 노래가 닿을 자리가 보였어.
+<<endif>>
+
+<<add_trot 5>>
+<<add_popularity 4>>
+<<add_visual 20>>
+<<add_money 500>>
+===

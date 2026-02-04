@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5514027683252033079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2720808618926430649}
+  - component: {fileID: 7106320810152301226}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2720808618926430649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514027683252033079}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 301.36725, y: 338.05905, z: -6.842949}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7106320810152301226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514027683252033079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf24aca0385dd74ebe9a83cd9b5ba41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energyRecover: 100
+  stats:
+  - {fileID: 11400000, guid: a9b8e308cab160240be97a3dd92a89a4, type: 2}
+  - {fileID: 11400000, guid: db2f01991817ffb4bb218b02f4daea08, type: 2}
+  - {fileID: 11400000, guid: 4b8e4c525d2c2694d86012dcaef7115f, type: 2}
+  - {fileID: 11400000, guid: d287997585cbf1343992690de47a0cb7, type: 2}
+  - {fileID: 11400000, guid: bc0e9ed85841faf47955600fb5393e4a, type: 2}
+  - {fileID: 11400000, guid: 8b496978df54c584990f28191cf795fb, type: 2}
+  - {fileID: 11400000, guid: 54909c8e2cff3594482b7258ab561c23, type: 2}
+  characterParts:
+  - {fileID: 11400000, guid: b83f4dc90eb4afd4cad3eb4beb859ca1, type: 2}
+  - {fileID: 11400000, guid: 5578222e0d4bbed4ba47c6c22c24811e, type: 2}
+  - {fileID: 11400000, guid: 59bf4526b74b9df449456fbf683a81c7, type: 2}
+  - {fileID: 11400000, guid: cb3101994198c5344b41e2e38cbd0fe8, type: 2}
+  - {fileID: 11400000, guid: be8d84e5a44690542872b97d3e934262, type: 2}
+  - {fileID: 11400000, guid: 7bf71a91fc868864bac618485d1f2e9c, type: 2}
+  - {fileID: 11400000, guid: 7d355f799a6b2e44ab1f162fed55d241, type: 2}
+  - {fileID: 11400000, guid: 4b7912ac4a6a9de4cb26f09c8c880e33, type: 2}
+  - {fileID: 11400000, guid: d4e65280fcce32c41a2dd64ad5716cc4, type: 2}
+  - {fileID: 11400000, guid: dd787047b54a45c46aacc10ed66b080e, type: 2}
+  - {fileID: 11400000, guid: da657d3c93b4eca4cabad0f2d3cdd05a, type: 2}
+  - {fileID: 11400000, guid: a58acc81e837eed40b9bc38a5f11caeb, type: 2}
+  - {fileID: 11400000, guid: 8801830a1c1cddd4a9ed1fe27149f4f0, type: 2}
+  - {fileID: 11400000, guid: 6f1738389bc079e4f956fb32f061e54e, type: 2}
+  - {fileID: 11400000, guid: 19c87f808b30a7d498573c4349da8469, type: 2}
+  - {fileID: 11400000, guid: 57fea7c750ba83f43963982d371272da, type: 2}
+  - {fileID: 11400000, guid: 1b98d468c2ba87948a306ccbd2855eb4, type: 2}
+  - {fileID: 11400000, guid: c8cf8d0593a212241a59fbedb5c42d39, type: 2}
+  - {fileID: 11400000, guid: c9286dfb894f661458d374dcdb1bb7e2, type: 2}
+  - {fileID: 11400000, guid: 57f9ae016a190064a90e723c2a4c86bb, type: 2}
+  - {fileID: 11400000, guid: e1881bc45ad49034faa5217f28abd789, type: 2}
+  - {fileID: 11400000, guid: 81e7f53e17f990740bd053923d90fc35, type: 2}
+  defaultClothes_Top: {fileID: 11400000, guid: 1b98d468c2ba87948a306ccbd2855eb4, type: 2}
+  defaultClothes_Bottom: {fileID: 11400000, guid: b83f4dc90eb4afd4cad3eb4beb859ca1, type: 2}
+  defaultClothes_Shoes: {fileID: 11400000, guid: be8d84e5a44690542872b97d3e934262, type: 2}
+  defaultClothes_Hair: {fileID: 11400000, guid: a58acc81e837eed40b9bc38a5f11caeb, type: 2}
